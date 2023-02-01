@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Interior Consultant</title>
+</head>
+
+<body class="bg-[#181719] text-white flex flex-col lg:items-center md:items-center">
+    <!-- Inicia menu responsivo -->
+    <div class="hidden" id="menu-full">
+        <div class="flex justify-end md:justify-center m-5" id="close">
+            <a href="#">
+                <span class="material-icons md-dark">close</span>
+            </a>
+        </div>
+        <div class="flex justify-center items-center font-[Montserrat] text-lg text-center h-[35rem] ">
+            <nav class="flex flex-col gap-8 list-none">
+                <li><a class="p-1 border-transparent border-b-2 hover:border-white hover:font-bold" href="#">Home</a></li>
+                <li><a class="p-1 border-transparent border-b-2 hover:border-white hover:font-bold" href="#">Collection</a></li>
+                <li><a class="p-1 border-transparent border-b-2 hover:border-white hover:font-bold" href="#">About</a></li>
+                <li><a class="p-1 border-transparent border-b-2 hover:border-white hover:font-bold" href="#">Contact</a></li>
+            </nav>
+        </div>
+    </div>
+    <!-- Inicia container -->
+    <div class="container lg:ml-20 lg:mr-11 lg:m-auto" id="container">
+        <header class="flex justify-between items-center">
+            <div>
+                <button type="submit" class="border uppercase font-[CrimsonPro] p-2 m-7 ml-3 text-sm font-extralight">
+                    This Interior
+                </button>
+            </div>
+            <div class="hidden lg:flex lg:gap-28 font-[Montserrat] text-lg">
+                <a class="p-1 border-transparent border-b-2 hover:border-white" href="#">Home</a>
+                <a class="p-1 border-transparent border-b-2 hover:border-white" href="#">Collection</a>
+                <a class="p-1 border-transparent border-b-2 hover:border-white" href="#">About</a>
+                <a class="p-1 border-transparent border-b-2 hover:border-white" href="#">Contact</a>
+            </div>
+            <div class="m-6 lg:hidden" id="hamburger">
+                <a href="#">
+                    <span class="material-icons md-dark">menu</span>
+                </a>
+            </div>
+        </header>
+        <main class="lg:flex lg:items-center lg:justify-between lg:mt-60">
+            <div class="flex flex-col gap-8 ml-3">
+                <h1 class="font-[Lora] text-4xl font-medium lg:text-5xl">Modern interior</h1>
+                <p class="font-[Montserrat] font-normal text-sm w-[16rem] h-20 lg:w-[26rem] lg:text-2xl lg:h-36">A full-Service residential & commercial
+                    interior design and staging company offering professional organizing & eco-services.</p>
+                <a href="#" class="font-[Montserrat] font-bold text-sm lg:text-lg">Read more
+                    <span class="material-icons md-dark">arrow_forward</span>
+                </a>
+            </div>
+            
+                <div class="relative lg:w-[51rem]">
+                    <img src="img/photo1.png" alt="" class="p-3 w-full">
+                    <div class="bg-[#181719] w-72 h-36 absolute -bottom-[6rem] right-12 shadow-xl p-3 lg:w-[26rem] lg:h-[12rem] lg:pl-6">
+                        <div class="flex items-center gap-3">
+                            <img src="img/photo2.png" alt="" class="object-cover rounded-full w-16 p-2">
+                            <div class="font-[font-[Montserrat]">
+                                <h4 class="font-medium text-xs lg:text-sm">Aliza Webber</h4>
+                                <h4 class="text-[0.625rem] lg:text-xs">Interior designer</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-[Lora] text-lg font-bold w-52 lg:text-2xl">Designed in 2020 by Aliza Webber</p>
+                        </div>
+                    </div>
+                </div>
+            
+        </main>
+        <footer class="m-auto mt-52 lg:mt-72 text-center p-6">
+            <p>created by DexterDC - devChallenges.io</p>
+        </footer>
+    </div>
+    
+</body>
+<script src="js/menu.js"></script>
+</html>
